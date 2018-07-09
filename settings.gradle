@@ -1,0 +1,3 @@
+include ':app'
+include ':jappy-core'
+project(':jappy-core').projectDir = new File(settingsDir, '../core/jappy-core')
